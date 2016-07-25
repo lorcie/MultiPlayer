@@ -1,0 +1,92 @@
+{
+  "intents": [
+    {
+      "intent": "AddPlayerIntent",
+      "slots": [
+        {
+          "name": "PlayerName",
+          "type": "LIST_OF_PLAYER_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "AddScoreIntent",
+      "slots": [
+        {
+          "name": "PlayerName",
+          "type": "LIST_OF_PLAYER_NAMES"
+        },
+        {
+          "name": "ScoreNumber",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "ResetPlayersIntent"
+    },
+    {
+      "intent": "NewGameIntent"
+    },
+    {
+      "intent": "TellScoresIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AnswerIntent",
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "LIST_OF_ANSWERS"
+        }
+      ]
+    },
+    {
+      "intent": "AnswerOnlyIntent",
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "LIST_OF_ANSWERS"
+        }
+      ]
+    },
+    {
+      "intent": "DontKnowIntent"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },	
+    {
+      "intent": "GameQuestionsReloadIntent"
+    },
+    {
+      "intent": "GameQuestionsSetIntent"
+    },
+    {
+      "intent": "AnswerQuestionsIntent",
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "LIST_OF_ANSWERS"
+        }
+      ]
+    }
+  ]
+}
